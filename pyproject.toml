@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polymarket-arbitrage-engine"
+version = "0.1.0"
+description = "Focused Polymarket binary market arbitrage engine with real-time opportunity detection"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "LICENSE"}
+dependencies = [
+  "requests>=2.31,<3",
+  "websocket-client>=1.8,<2",
+]
+
+keywords = ["polymarket", "arbitrage", "prediction-markets", "trading", "websocket"]
+
+[project.urls]
+Repository = "https://github.com/your-username/polymarket-arbitrage-engine"
+Issues = "https://github.com/your-username/polymarket-arbitrage-engine/issues"
+
+[tool.setuptools.packages.find]
+include = ["polytest*"]

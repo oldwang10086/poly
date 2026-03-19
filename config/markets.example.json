@@ -1,0 +1,11 @@
+[
+  {
+    "market_id": "0xb48621f7eba07b0a3eeabc6afb09ae42490239903997b9d412b0f69aeb040c8b",
+    "question": "BitBoy convicted?",
+    "slug": "bitboy-convicted",
+    "yes_asset_id": "75467129615908319583031474642658885479135630431889036121812713428992454630178",
+    "no_asset_id": "3842963720267267286970642336860752782302644680156535061700039388405652129691",
+    "outcomes": ["Yes", "No"],
+    "tags": ["example", "binary"]
+  }
+]

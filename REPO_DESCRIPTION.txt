@@ -1,0 +1,1 @@
+Real-time Polymarket arbitrage engine for fee-free binary markets with top-of-book scanning, capital allocation, and execution-ready architecture.
