@@ -42,8 +42,4 @@ polymarket-arbitrage-engine/
 - `polytest/engine/whitelist.py`: fee-free market discovery and file whitelist loading
 - `tests/`: deterministic local validation
 
-## Publish Advice
-
-- Keep the repo focused. Do not mix notebooks, unrelated scripts, or datasets into this repo.
-- Add a demo GIF or sample `opportunity` log later if you want a better GitHub landing page.
-- Add a license before public release.
+- 

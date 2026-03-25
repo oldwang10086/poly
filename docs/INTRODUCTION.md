@@ -50,23 +50,4 @@ The codebase is meant to be useful for:
 - researchers studying microstructure inefficiencies in binary markets
 - developers who want a clean reference architecture for event-driven execution pipelines
 
-## Current Boundaries
-
-The engine is still deliberately conservative in scope.
-
-It does not yet include:
-
-- merge settlement execution
-- full order lifecycle management
-- portfolio reconciliation
-- persistent storage
-- full-depth order book support
-- inventory optimization
-
-Those pieces are natural next steps, but they are not hidden behind marketing language here. The project is strongest when presented honestly: it is a serious, well-structured arbitrage engine foundation with real-time data handling, capital allocation logic, and an execution-ready design.
-
-## Short GitHub Intro
-
-If you want a concise GitHub-facing summary, use this:
-
-> A real-time Polymarket arbitrage engine for fee-free binary markets, with top-of-book scanning, capital-aware allocation, and execution-ready architecture.
+> 

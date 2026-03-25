@@ -149,31 +149,3 @@ polymarket-arbitrage-engine/
     `-- test_whitelist.py
 ```
 
-## Design Notes
-
-- The engine keeps only top-of-book, not full depth.
-- If a delta update changes top price but not top size, size is treated as unknown until a later update confirms it.
-- Mock execution exists only to preserve the execution interface for the next stage.
-- Full market universe mode is large; use `--max-markets` for smoke tests.
-
-## Testing
-
-```bash
-python -m unittest discover -s tests -p "test_*.py" -v
-```
-
-## Roadmap
-
-See:
-- [docs/ROADMAP.md](docs/ROADMAP.md)
-
-## Publishing Advice
-
-If you upload this to GitHub, use this directory as the repo root. Do not upload the entire mixed workspace that contains unrelated notebooks and datasets.
-
-If you already created an empty GitHub repo, you can also run:
-
-```powershell
-cd github-release
-.\scripts\push_to_github.ps1 -RepoUrl https://github.com/your-username/polymarket-arbitrage-engine.git
-```
